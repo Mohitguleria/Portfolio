@@ -7,11 +7,11 @@ function sendEmail(){
     Email.send({
         Host : "smtp.gmail.com",
         Username : "mohitguleria999@gmail.com",
-        Password : "unofficial9176210",
+        Password : "",
         To : "mohitguleria888@gmail.com",
         From : "mohitguleria999@gmail.com",   // variable lagao
         Subject : "",
-        Body : "email body",                             // variable lagao
+        Body : "email body",                             
     }).then(
         message => alert("Email sent successfully!")
     );
